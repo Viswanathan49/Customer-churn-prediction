@@ -1,0 +1,57 @@
+[
+  {
+    "customer_id": "SAMPLE_001",
+    "tenure_months": 12,
+    "monthly_charges": 65.50,
+    "total_charges": 786.00,
+    "contract_type": "yearly",
+    "support_tickets": 2,
+    "payment_method": "credit_card",
+    "service_usage": 75.5,
+    "satisfaction_score": 8.2
+  },
+  {
+    "customer_id": "SAMPLE_002",
+    "tenure_months": 3,
+    "monthly_charges": 89.90,
+    "total_charges": 269.70,
+    "contract_type": "monthly",
+    "support_tickets": 5,
+    "payment_method": "debit_card",
+    "service_usage": 25.3,
+    "satisfaction_score": 4.1
+  },
+  {
+    "customer_id": "SAMPLE_003",
+    "tenure_months": 24,
+    "monthly_charges": 45.20,
+    "total_charges": 1084.80,
+    "contract_type": "yearly",
+    "support_tickets": 1,
+    "payment_method": "bank_transfer",
+    "service_usage": 78.5,
+    "satisfaction_score": 8.7
+  },
+  {
+    "customer_id": "SAMPLE_004",
+    "tenure_months": 6,
+    "monthly_charges": 95.80,
+    "total_charges": 574.80,
+    "contract_type": "monthly",
+    "support_tickets": 8,
+    "payment_method": "cash",
+    "service_usage": 25.7,
+    "satisfaction_score": 3.4
+  },
+  {
+    "customer_id": "SAMPLE_005",
+    "tenure_months": 48,
+    "monthly_charges": 35.00,
+    "total_charges": 1680.00,
+    "contract_type": "two_year",
+    "support_tickets": 0,
+    "payment_method": "bank_transfer",
+    "service_usage": 89.3,
+    "satisfaction_score": 9.1
+  }
+]

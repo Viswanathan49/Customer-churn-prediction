@@ -1,0 +1,134 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST_001",
+      "tenure_months": 23,
+      "monthly_charges": 91.97,
+      "total_charges": 1234.06,
+      "contract_type": "two_year",
+      "support_tickets": 0,
+      "payment_method": "debit_card",
+      "service_usage": 99.0,
+      "satisfaction_score": 6.3
+    },
+    {
+      "customer_id": "CUST_002",
+      "tenure_months": 32,
+      "monthly_charges": 28.25,
+      "total_charges": 2974.09,
+      "contract_type": "yearly",
+      "support_tickets": 2,
+      "payment_method": "bank_transfer",
+      "service_usage": 65.5,
+      "satisfaction_score": 7.7
+    },
+    {
+      "customer_id": "CUST_003",
+      "tenure_months": 10,
+      "monthly_charges": 58.14,
+      "total_charges": 479.16,
+      "contract_type": "yearly",
+      "support_tickets": 5,
+      "payment_method": "bank_transfer",
+      "service_usage": 4.2,
+      "satisfaction_score": 8.6
+    },
+    {
+      "customer_id": "CUST_004",
+      "tenure_months": 7,
+      "monthly_charges": 29.31,
+      "total_charges": 1957.38,
+      "contract_type": "yearly",
+      "support_tickets": 8,
+      "payment_method": "debit_card",
+      "service_usage": 50.0,
+      "satisfaction_score": 8.1
+    },
+    {
+      "customer_id": "CUST_005",
+      "tenure_months": 55,
+      "monthly_charges": 109.94,
+      "total_charges": 2945.16,
+      "contract_type": "yearly",
+      "support_tickets": 6,
+      "payment_method": "cash",
+      "service_usage": 35.0,
+      "satisfaction_score": 4.7
+    }
+  ],
+  "predictions": [
+    {
+      "customer_id": "CUST_001",
+      "churn_probability": 0.0,
+      "risk_level": "LOW",
+      "risk_factors": [
+        "High monthly charges"
+      ],
+      "recommendations": [
+        "Offer loyalty discount or plan optimization"
+      ]
+    },
+    {
+      "customer_id": "CUST_002",
+      "churn_probability": 0.0,
+      "risk_level": "LOW",
+      "risk_factors": [],
+      "recommendations": [
+        "Continue monitoring and maintain current service level"
+      ]
+    },
+    {
+      "customer_id": "CUST_003",
+      "churn_probability": 0.001,
+      "risk_level": "LOW",
+      "risk_factors": [
+        "Multiple support issues",
+        "Low service engagement"
+      ],
+      "recommendations": [
+        "Proactive customer success outreach",
+        "Provide usage tips and feature education"
+      ]
+    },
+    {
+      "customer_id": "CUST_004",
+      "churn_probability": 0.0,
+      "risk_level": "LOW",
+      "risk_factors": [
+        "Multiple support issues"
+      ],
+      "recommendations": [
+        "Proactive customer success outreach"
+      ]
+    },
+    {
+      "customer_id": "CUST_005",
+      "churn_probability": 0.0,
+      "risk_level": "LOW",
+      "risk_factors": [
+        "High monthly charges",
+        "Multiple support issues",
+        "Low satisfaction score"
+      ],
+      "recommendations": [
+        "Offer loyalty discount or plan optimization",
+        "Proactive customer success outreach",
+        "Schedule satisfaction survey and follow-up"
+      ]
+    }
+  ],
+  "model_info": {
+    "features_used": [
+      "tenure_months",
+      "monthly_charges",
+      "total_charges",
+      "contract_length",
+      "support_tickets",
+      "payment_method_score",
+      "service_usage",
+      "satisfaction_score"
+    ],
+    "model_type": "Logistic Regression (Simplified)",
+    "note": "This is a demonstration model. Production models would use real ML libraries."
+  }
+}
